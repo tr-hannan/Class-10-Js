@@ -5,6 +5,7 @@
     --paragraph-color: #717171;
     --banner-color: #F5F7FA;
     --footer-color: #89939E;
+    --textBg-color: #263238;
 }
 /* css reset start */
 *,
@@ -393,9 +394,9 @@ nav{
   position: absolute;
 }
 
-.historyDetails div:first-child{
-  /* margin-right: 30px; */
-}
+/* .historyDetails div:first-child{
+  margin-right: 30px;
+} */
 
 .historyDetails div:nth-last-child(3){
   top: 0;
@@ -513,3 +514,120 @@ footer{
   margin: auto;
 }
 /* footer part end */
+/* marketing part start */
+#marketing{
+  margin-top: 48px;
+}
+
+.marketingContent h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--font-color);
+  line-height: 44px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.marketingContent p{
+  max-width: 628px;
+  height: 72px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  line-height: 24px;
+  text-align: center;
+  padding: 0px 406px;
+  padding-bottom: 16px;
+  margin: auto;
+}
+
+.marketingContentWrapper{
+  padding: 0px 144px;
+  margin-bottom: 95px;
+}
+
+.contentWrapper{
+  min-width: 368px;
+  height: 366px;
+  margin: auto;
+  position: relative;
+}
+
+.markCardImg{
+  max-width: 368px;
+  height: 286px;
+  position: absolute;
+  z-index: -1;
+}
+
+.markCardContent{
+  max-width: 317px;
+  height: 176px;
+  background-color: var(--banner-color);
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+  margin-top: 190px;
+}
+
+.markCardContent h3{
+  color: var(--paragraph-color);
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.markCardContent h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--brand-color);
+  text-align: center;
+}
+/* marketing part end */
+/* suscipit section start */
+#suscipit{
+  background-color: var(--banner-color);
+}
+
+.suscipitContent h2{
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--textBg-color);
+  line-height: 76px;
+  text-align: center;
+  padding: 32px 0px;
+  margin-bottom: 14px;
+}
+
+.suscipitLinks{
+  padding: 0px 631px;
+  padding-bottom: 46px;
+}
+
+.suscipitContent a{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.companyDetails{
+  background-color: var(--textBg-color);
+  padding: 0px 165px;
+}
+
+.infoLogo{
+  padding-top: 64px;
+  padding-bottom: 74px;
+  margin: auto;
+}
+
+.infoDetails{
+  max-width: 635px;
+  height: 200px;
+  padding: 64px 0px;
+  padding-left: 125px;
+  gap: 30px;
+  margin: auto;
+}
+/* suscipit section end */
