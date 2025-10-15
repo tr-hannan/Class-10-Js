@@ -89,6 +89,7 @@ select {
     padding: 14px 32px;
     border-radius: 5px;
     background-color: var(--brand-color);
+    color: white;
 }
 .inter{
   font-family: "Inter", sans-serif;
@@ -212,3 +213,128 @@ nav{
   padding: 96px 144px;
 }
 /* hero section end */
+/* clients section start */
+#clients{
+  margin-top: 40px;
+}
+
+.clientsTitleLogos h2{
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--font-color);
+}
+
+.clientsTitleLogos p{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+  color: var(--paragraph-color);
+}
+
+.clientsTitleLogos img{
+  margin: auto;
+  margin-top: 16px;
+}
+
+.community{
+    margin-top: 40px;
+}
+
+.community h2{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--font-color);
+    line-height: 44px;
+}
+
+.community p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--paragraph-color);
+    margin-top: 8px;
+}
+
+.businessCard{
+    padding: 0px 144px;
+    gap: 128px;
+    margin-top: 16px;
+}
+
+.clientsCards{
+    max-width: 300px;
+    height: 280px;
+    position: relative;
+    margin: auto;
+}
+
+.cardLogo img{
+    max-width: 65px;
+    position: absolute;
+    margin-top: 24px;
+    right: 120px;
+}
+
+.cardContent h3{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--font-color);
+    line-height: 36px;
+    margin-top: 96px;
+}
+
+.cardContent p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--paragraph-color);
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.clientWrapper{
+    padding: 0px 144px;
+    /* margin: auto; */
+    position: relative;
+}
+
+.clientBg{
+    max-width: 442px;
+}
+
+.clientWrapperContent{
+    max-width: 661px;
+    height: 268px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 82.5px 144px;
+}
+
+.clientWrapperContent h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--font-color);
+    line-height: 44px;
+    margin-bottom: 16px;
+    margin-right: 60px;
+}
+
+.clientWrapperContent p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    line-height: 20px;
+    margin-right: 60px;
+    margin-bottom: 46px;
+}
+
+.contentLinks a{
+    color: white;
+    font-size: 16px;
+}
+/* clients section end */
