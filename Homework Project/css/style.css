@@ -1,0 +1,158 @@
+:root{
+    --brand-color: #4CAF4F;
+    --font-color: #4D4D4D;
+    --text-color: #18191F;
+    --paragraph-color: #717171;
+    --banner-color: #F5F7FA;
+}
+/* css reset start */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  /* margin */
+}
+/* css reset end */
+/* common css start */
+.container{
+    max-width: 1320px;
+    margin: auto;
+    /* position: relative; */
+}
+
+.flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.btn{
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 5px;
+    background-color: var(--brand-color);
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.text-color{
+    color: var(--brand-color);
+}
+/* common css end */
+/* nav part start */
+nav{
+    padding: 22px 0px;
+    /* margin: auto; */
+}
+
+.navLogo, .navLinks{
+    width: 25%;
+}
+
+.navMenu{
+    width: 50%;
+    margin: auto;
+}
+
+.navLogo{
+  margin: auto;
+}
+
+.navLogo img{
+    width: 155px;
+}
+
+.navMenu ul{
+    gap: 65px;
+    font-weight: 400;
+}
+
+.navMenu ul li a{
+  color: var(--text-color);
+}
+
+.navLinks ul{
+    gap: 35px;
+    margin: auto;
+    justify-content: flex-end;
+}
+
+.navLinks ul li:last-child{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: var(--brand-color);
+}
+
+.navLinks ul li a{
+    color: white;
+    font-weight: 500;
+}
+
+.navLinks ul li:first-child a{
+    color: var(--brand-color);
+    font-size: 14px;
+}
+/* nav part end */
