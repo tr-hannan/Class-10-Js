@@ -4,6 +4,7 @@
     --text-color: #18191F;
     --paragraph-color: #717171;
     --banner-color: #F5F7FA;
+    --footer-color: #89939E;
 }
 /* css reset start */
 *,
@@ -106,6 +107,7 @@ select {
 nav{
     padding: 22px 0px;
     /* margin: auto; */
+    background-color: var(--banner-color);
 }
 
 .navLogo, .navLinks{
@@ -337,4 +339,177 @@ nav{
     color: white;
     font-size: 16px;
 }
+
+.localHistory{
+  margin-top: 48px;
+  background-color: var(--banner-color);
+}
+
+.historyContent, .historyDetails{
+  width: 50%;
+}
+
+.historyContent{
+  max-width: 540px;
+  height: 120px;
+  padding: 84px 0px;
+  padding-left: 144px;
+  margin-right: 72px;
+}
+
+.historyContent h2{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: var(--font-color);
+}
+
+.historyContent h3{
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--brand-color);
+  line-height: 44px;
+}
+
+.historyContent p{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.historyDetails{
+  max-width: 540px;
+  height: 160px;
+  padding: 64px 0px;
+  padding-right: 144px;
+  position: relative;
+}
+
+.imagesDetails{
+  max-width: 255px;
+  height: 60px;
+  position: absolute;
+}
+
+.historyDetails div:first-child{
+  /* margin-right: 30px; */
+}
+
+.historyDetails div:nth-last-child(3){
+  top: 0;
+  right: 0;
+  margin-top: 64px;
+  margin-right: 144px;
+}
+
+.historyDetails div:nth-last-child(2){
+  left: 0;
+  bottom: 0;
+  margin-bottom: 64px;
+}
+
+.historyDetails div:last-child{
+  bottom: 0;
+  right: 0;
+  margin-bottom: 64px;
+  margin-right: 144px;
+}
 /* clients section end */
+/* footer part start */
+footer{
+  margin-top: 48px;
+}
+
+.footerWrapper{
+  padding: 0px 144px;
+  /* margin: auto; */
+}
+
+.footerBg{
+  max-width: 442px;
+  height: 433px;
+  margin-right: 50px;
+  /* margin: auto; */
+}
+
+.footerContent{
+  max-width: 661px;
+  height: 308px;
+  margin: 62px 0px;
+  margin: auto;
+}
+
+.footerContent h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--font-color);
+  line-height: 44px;
+  margin-right: 60px;
+  margin-bottom: 16px;
+}
+
+.footerContent p{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  line-height: 20px;
+  margin-bottom: 46px;
+  margin-right: 60px;
+}
+
+.timSmith{
+  padding: 33px 144px;
+  margin-top: 48px;
+  background-color: var(--banner-color);
+}
+
+.timSmithBg{
+  min-width: 326px;
+  height: 326px;
+  margin-right: 78px;
+}
+
+.timSmithContent{
+  max-width: 748px;
+  height: 324px;
+  margin: auto;
+}
+
+.timSmithContent p{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--paragraph-color);
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.timSmithContent h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--brand-color);
+  margin-bottom: 8px;
+}
+
+.timSmithContent h4{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--footer-color);
+  margin-bottom: 32px;
+}
+
+.timSmithLinks img{
+  width: 493px;
+  height: 48px;
+  margin-right: 32px;
+}
+
+.timSmithLinks a{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--brand-color);
+  padding: 8px 0px;
+  margin: auto;
+}
+/* footer part end */
