@@ -156,3 +156,59 @@ nav{
     font-size: 14px;
 }
 /* nav part end */
+/* hero section start */
+#banner{
+  min-height: 90vh;
+  position: relative;
+  background-color: var(--banner-color);
+}
+
+.bannerContant{
+  max-width: 657px;
+  height: 276px;
+  padding: 161.5px 144px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bannerContant h1{
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--font-color);
+  line-height: 76px;
+}
+
+.bannerContant h2{
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--brand-color);
+}
+
+.bannerContant p{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  line-height: 36px;
+  /* padding-top: 16px; */
+}
+
+.bannerLinks{
+  margin-top: 32px;
+}
+
+.dots{
+  width: 46px;
+  position: absolute;
+  bottom: 0;
+  left: 720px;
+}
+
+.bannerBg{
+  max-width: 391px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding: 96px 144px;
+}
+/* hero section end */
