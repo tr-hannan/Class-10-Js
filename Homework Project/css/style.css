@@ -164,34 +164,31 @@ nav{
 /* nav part end */
 /* hero section start */
 #banner{
-  min-height: 700px;
-  position: relative;
+  /* min-height: 700px; */
   background-color: var(--banner-color);
 }
 
-.bannerContant{
+.bannerContent{
   max-width: 657px;
   height: 276px;
-  padding: 161.5px 144px;
-  position: absolute;
-  left: 0;
-  top: 0;
+  padding: 161.5px 84px;
 }
 
-.bannerContant h1{
+.bannerContent h1{
   font-size: 64px;
   font-weight: 600;
   color: var(--font-color);
   line-height: 76px;
 }
 
-.bannerContant h2{
+.bannerContent h2{
   font-size: 64px;
   font-weight: 600;
   color: var(--brand-color);
+  /* line-height: 76px; */
 }
 
-.bannerContant p{
+.bannerContent p{
   font-size: 16px;
   font-weight: 400;
   color: var(--paragraph-color);
@@ -205,18 +202,15 @@ nav{
 
 .dots{
   width: 46px;
-  position: absolute;
-  bottom: 0;
-  left: 720px;
-  margin-bottom: 16px;
+  margin: auto;
+  margin-top: 70px;
+  padding-bottom: 16px;
 }
 
 .bannerBg{
   max-width: 391px;
-  top: 0;
-  right: 0;
-  position: absolute;
-  padding: 96px 144px;
+  height: auto;
+  padding: 96px 84px;
 }
 /* hero section end */
 /* clients section start */
@@ -284,6 +278,7 @@ nav{
     height: 270px;
     position: relative;
     margin: auto;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
 }
 
 .cardLogo img{
@@ -320,16 +315,14 @@ nav{
 }
 
 .clientBg{
-    max-width: 442px;
+    min-width: 442px;
 }
 
 .clientWrapperContent{
-    max-width: 661px;
+    min-width: 661px;
     height: 268px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 82.5px 84px;
+    margin: 82.5px 0px;
+    padding-right: 84px;
 }
 
 .clientWrapperContent h2{
@@ -356,16 +349,15 @@ nav{
 }
 /* clients section end */
 /* business part start */
-/* #business{
+#business{
   background-color: var(--banner-color);
-} */
+}
 
 .localBusiness{
   margin-top: 48px;
   background-color: var(--banner-color);
-  padding: 0px 144px;
+  padding: 0px 84px;
   gap: 72px;
-  margin: auto;
 }
 
 .businessContent, .businessDetails{
@@ -409,20 +401,15 @@ nav{
 
 .localDetails{
   flex-wrap: wrap;
+  gap: 40px;
 }
 
-/* .localDetails .companyCards{
-  width: 50%;
-  margin: auto;
-} */
-
-.companyCards{
-  width: 255px;
-  height: 60px;
+.localDetails div:first-child{
+  margin-right: 15px;
 }
 
-.cardIcon{
-  margin: auto;
+.localDetails div:nth-child(3){
+  margin-right: 30px;
 }
 
 .cardIcon img{
@@ -431,11 +418,6 @@ nav{
   padding: 6px 0px;
   padding-right: 16px;
 }
-
-/* .localHistory{
-  margin-right: 70px;
-  margin: auto;
-} */
 
 .localHistory h2{
   font-size: 28px;
@@ -450,12 +432,6 @@ nav{
   color: var(--paragraph-color);
   line-height: 24px;
 }
-
-/* .companyCards:last-child{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-} */
 
 .footerWrapper{
   margin-top: 48px;
@@ -496,7 +472,7 @@ nav{
 }
 
 .timSmith{
-  padding: 33px 144px;
+  padding: 33px 84px;
   margin-top: 48px;
   background-color: var(--banner-color);
 }
@@ -634,18 +610,24 @@ nav{
 }
 
 .preFooterLinks{
-  padding: 0px 631px;
+  /* padding: 0px 631px; */
   padding-bottom: 46px;
+  /* margin: auto; */
+  text-align: center;
 }
 
 .preFooterLinks a{
   font-size: 16px;
   font-weight: 500;
+  margin: auto;
+}
+
+footer{
+  background-color: var(--textBg-color);
 }
 
 .footer{
-  background-color: var(--textBg-color);
-  padding: 0px 165px;
+  padding: 0px 105px;
 }
 
 .infoLogo{
