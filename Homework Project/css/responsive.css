@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 640px){
+@media (min-width: 320px) and (max-width: 768px){
     nav{
         position: relative;
         padding: 20px 0px;
@@ -85,8 +85,7 @@
     .clientBg{
         min-width: 100%;
         height: auto;
-        /* display: block; */
-        /* padding: 50px; */
+        /* margin: auto; */
     }
     .clientWrapperContent{
         min-width: 100%;
@@ -113,12 +112,15 @@
         margin-right: 0px;
         padding: 50px 0px;
         text-align: center;
+        margin: auto;
     }
     .businessDetails{
         width: 100%;
         height: auto;
         padding: 0px;
-        margin-top: 60px;
+        padding-top: 60px;
+        /* margin-top: 60px; */
+        margin: auto;
     }
     .localDetails{
         padding-left: 30px;
@@ -133,6 +135,7 @@
         width: 100%;
         height: auto;
         padding-bottom: 50px;
+        margin: auto;
     }
     .footerContent{
         text-align: center;
@@ -150,10 +153,12 @@
         padding: 20px;
         display: block;
         margin-top: 10px;
+        /* margin: auto; */
     }
     .timSmithBg{
         min-width: 100%;
         height: auto;
+        margin: auto;
     }
     .timSmithContent{
         width: 100%;
@@ -177,19 +182,28 @@
     }
     .marketingContentWrapper{
         padding: 10px;
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
     .contentWrapper{
         min-width: 100%;
         height: auto;
+        flex-direction: column;
     }
-    .markCardContent{
-        max-width: 80%;
+    .marketingCards{
+        width: 100%;
         height: auto;
-        margin-top: 200px;
+    }
+    .cardImage{
+        width: 300px;
+        height: auto;
+        margin: auto;
+    }
+    .wrapperContent{
+        width: 260px;
+        height: auto;
         padding-bottom: 20px;
+        margin-top: 150px;
+        margin-left: 20px;
     }
     /* footer section */
     .preFooter h2{
@@ -202,6 +216,10 @@
     .infoLogo{
         padding-bottom: 100px;
         padding-left: 40px;
+        margin-right: 0px;
+        width: 300px;
+        height: auto;
+        margin: auto;
     }
     .infoDetails{
         width: 100%;

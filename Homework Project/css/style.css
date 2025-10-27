@@ -316,6 +316,8 @@ nav{
 
 .clientBg{
     min-width: 442px;
+    height: auto;
+    /* margin: auto; */
 }
 
 .clientWrapperContent{
@@ -481,6 +483,7 @@ nav{
   min-width: 326px;
   height: 326px;
   /* margin-right: 78px; */
+  /* margin: auto; */
 }
 
 .timSmithContent{
@@ -551,34 +554,43 @@ nav{
 
 .marketingContentWrapper{
   padding: 0px 84px;
-  margin-bottom: 95px;
+  margin-bottom: 94px;
 }
 
 .contentWrapper{
-  min-width: 368px;
+  min-width: 1152px;
   height: 366px;
-  margin: auto;
-  position: relative;
+  gap: 24px;
 }
 
-.markCardImg{
+.marketingCards{
   max-width: 368px;
-  height: 286px;
-  position: absolute;
-  z-index: -1;
+  height: 366px;
+  /* position: relative; */
+  margin: auto;
 }
 
-.markCardContent{
-  max-width: 317px;
+.cardImage{
+  width: 368px;
+  height: auto;
+  position: absolute;
+}
+
+.wrapperContent{
+  position: relative;
+  width: 317px;
   height: 176px;
   background-color: var(--banner-color);
   border-radius: 8px;
   margin: auto;
   text-align: center;
-  margin-top: 190px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px #ABBED166;
+  margin-top: 200px;
+  margin-left: 26px;
 }
 
-.markCardContent h3{
+.wrapperContent h3{
   color: var(--paragraph-color);
   padding: 16px;
   font-size: 20px;
@@ -587,7 +599,7 @@ nav{
   margin-bottom: 8px;
 }
 
-.markCardContent a{
+.wrapperContent a{
   font-size: 20px;
   font-weight: 600;
   color: var(--brand-color);
