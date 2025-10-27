@@ -65,7 +65,6 @@
     }
     .businessCards{
         flex-direction: column;
-        display: block;
         padding: 0px;
         gap: 10px;
     }
@@ -234,4 +233,96 @@
         gap: 45px;
         margin: auto;
     }
+}
+
+@media (min-width: 769px) and (max-width: 1280px){ 
+    nav{
+        padding: 20px;
+    }     
+    .navMenu ul{
+        gap: 15px;
+        justify-content: center;
+    }
+    .navLinks ul{
+        gap: 20px;
+    }
+    .bannerContent{
+        /* width: 50%; */
+        padding: 100px 0px;
+        padding-left: 30px;
+        margin: auto;
+    }
+    .bannerBg{
+        padding: 50px 0px;
+        padding-right: 30px;
+        margin: auto;
+    }
+    .dots{
+        margin-top: 120px;
+    }
+    .clientsIcons{
+        padding: 25px 30px;
+        gap: 60px;
+        justify-content: center;
+    }
+    .businessCards{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .clientWrapper{
+        gap: 0px;
+        flex-direction: column;
+    }
+    .clientBg{
+        margin: auto;
+    }
+    .clientWrapperContent{
+        margin: 20px 0px;
+    }
+    .localDetails{
+        gap: 20px;
+    }
+    .footerWrapper{
+        flex-direction: column;
+    }
+    .footerBg{
+        min-width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .timSmith{
+        flex-direction: column;
+        /* height: auto; */
+    }
+    .timSmithBg{
+        margin: auto;
+    }
+    .timSmithContent{
+        width: 100%;
+        height: auto;
+    }
+    .marketingContentWrapper{
+        margin-bottom: 90px;
+    }
+    .contentWrapper{
+        min-width: 368px;
+        height: auto;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .footer{
+        display: block;
+        padding: 0px 70px;
+        margin: auto;
+    }
+    .infoLogo{
+        margin-right: 0;
+        /* margin: auto; */
+    }
+    /* .infoDetails{
+        width: 100%;
+        height: auto;
+        display: block;
+    } */
 }
